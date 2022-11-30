@@ -1,0 +1,23 @@
+
+<div>
+    <table class="table table-info table-hover">
+        <thead>
+            <tr>
+            <th>#</th>
+            <th>Título</th>
+            <th>Precio</th>
+            <th>Imagen</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% listProd.forEach(prod => { %>
+                <tr>
+                    <td> <%= prod.id %> </td>
+                    <td> <%= prod.title %> </td>
+                    <td> <%= prod.price %> </td>
+                    <td> <img src="<%= prod.url %>" alt="<%= prod.title %>" width="25"> </td>
+                </tr>
+            <% }) %>
+        </tbody>
+    </table>
+</div>

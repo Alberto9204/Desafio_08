@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "timestamp": "",
+      "nombre": "bulbasaur",
+      "descripcion": "planta",
+      "codigo": 1,
+      "foto":"bulbasaur.jpg",
+      "precio": 200,
+      "stock":50
+    },
+    {
+      "id": 2,
+      "timestamp": "",
+      "nombre": "charmander",
+      "descripcion": "fuego",
+      "codigo": 4,
+      "foto":"charmander.jpg",
+      "precio": 200,
+      "stock":50
+    },
+    {
+      "id": 3,
+      "timestamp": "",
+      "nombre": "squirtle",
+      "descripcion": "agua",
+      "codigo": 7,
+      "foto":"squirtle.jpg",
+      "precio": 200,
+      "stock":50
+    }
+  ]
